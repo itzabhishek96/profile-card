@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Card.css'; // Import CSS file for styling
+import './Card.css';
 
 const Card = () => {
   const [user, setUser] = useState(null);
